@@ -431,11 +431,12 @@ body {
 
 
 
-  /* Milestones */
+  /* Milestones */ 
 
  #sec3{
   background-color: white ;
   padding: 7%;
+  overflow: scroll;
  }
 
 .title-mile{
@@ -449,7 +450,7 @@ body {
 
 .miles{
   border-radius: 20px;
-     padding-top: 5%;
+  padding-top: 5%;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -465,7 +466,7 @@ body {
 
 
 
-  .title-t{
+   .title-t{
     color: #37517e ;
     padding: auto;
     font-size: 35px;
@@ -483,9 +484,78 @@ body {
     align-items: center;
     justify-content: center;
     padding-top: 2%;
+
+  } 
+
+  body {
+    font-family: 'Arial', sans-serif;
   }
 
-/* TEAM */
+  
+  .infographic-step {
+    background-color: #fff;
+    height: 200px;
+    border-radius: 50%;
+    padding: 20px 10px;
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .infographic-step h5 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .infographic-step p {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .infographic-icon {
+    background-color:#176B87;
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+  }
+  
+  .infographic-step::after {
+    content: '';
+    width: 50px;
+    height: 1px;
+    background-color: #fcd205;
+    position: absolute;
+    top: 50%;
+    right: -80px;
+  }
+  
+  .infographic-step:last-child::after {
+    display: none;
+  }
+  
+  @media (max-width: 991px) {
+    .infographic-step::after {
+      display: none;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+  /* TEAM */
 
 .bg{
   z-index: 0;

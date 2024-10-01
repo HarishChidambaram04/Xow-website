@@ -146,12 +146,30 @@
               </li>
            </ul>
       </div>
-
+<!-- 
       <div class="col-md-6">
         <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.41529206153!2d78.16944567129143!3d11.66495241688029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1c0c9cfd625%3A0x6847d1461d0881bd!2s36%2C%20Vasagasalai%20St%2C%20Ponnammapet%2C%20Salem%2C%20Tamil%20Nadu%20636001!5e0!3m2!1sen!2sin!4v1688466724940!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      </div>
+      </div> -->
 
+      <div class="col-md-6" style="position: relative;">
+        <!-- Clickable link that overlays the iframe -->
+        <a href="https://www.google.com/maps/place/36,+Vasagasalai+St,+Ponnammapet,+Salem,+Tamil+Nadu+636001" 
+           target="_blank" 
+           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10;"></a>
+           
+        <!-- Embedded Google Map iframe -->
+        <iframe 
+            id="map" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.41529206153!2d78.16944567129143!3d11.66495241688029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1c0c9cfd625%3A0x6847d1461d0881bd!2s36%2C%20Vasagasalai%20St%2C%20Ponnammapet%2C%20Salem%2C%20Tamil+Nadu+636001!5e0!3m2!1sen!2sin!4v1688466724940!5m2!1sen!2sin" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade" 
+            style="border:0; width:100%; height:400px;">
+        </iframe>
+    </div>
+    
     </section>
+
     
   </div>
 
@@ -201,7 +219,9 @@
 <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+
  <script src="js/main.js"></script>
+
 
 <script src="vendor/aos/aos.js"></script>
 <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

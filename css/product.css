@@ -449,7 +449,7 @@ h6 {
   }
 }
 
-#hero .container {
+#hero .container{
   /* padding-top: 72px; */
   /* margin-top: 15px; */
   
@@ -559,8 +559,8 @@ h6 {
 
  .elearn-bg{
   background-image:linear-gradient(65deg, rgba(190, 197, 225, 0.423) 50%,rgba(137, 153, 211, 0.423) 50%);
-   border-radius: 20px;
-   box-shadow: 5px 5px rgb(171, 169, 169);
+  border-radius: 20px;
+  box-shadow: 5px 5px rgb(171, 169, 169);
  }
 
  .des-heading{
