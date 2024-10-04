@@ -958,16 +958,17 @@ section {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10%;
-  margin-left:20%;
+  margin-left: 17%;
   
 }
 
- @media (min-width: 768px) {
+  @media (min-width: 768px) {
   .services .icon-box {
     width: calc(33.33% - 20px); 
     margin: 10px; 
+  } 
   }
-} 
+
 
 .services .icon-box .icon {
   margin-bottom: 10px;
@@ -1023,6 +1024,16 @@ section {
   
   flex-direction: column;
 }
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .add1 {
+    text-align: center; /* Center text on small screens */
+  }
+  h3 {
+    font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+}
+
 
 
 .social-icon,
@@ -1157,3 +1168,4 @@ section {
 footer p{
     text-align: center;
 }
+

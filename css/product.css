@@ -679,6 +679,14 @@ section {
   flex-direction: column;
 }
 
+@media (max-width: 576px) {
+  .add1 {
+    text-align: center; /* Center text on small screens */
+  }
+  h3 {
+    font-size: 1.2rem; /* Adjust font size for mobile */
+  }
+}
 .social-icon,
 .menu {
   position: relative;
