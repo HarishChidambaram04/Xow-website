@@ -958,9 +958,16 @@ section {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10%;
-  margin-left: 10%;
+  margin-left:20%;
   
 }
+
+ @media (min-width: 768px) {
+  .services .icon-box {
+    width: calc(33.33% - 20px); 
+    margin: 10px; 
+  }
+} 
 
 .services .icon-box .icon {
   margin-bottom: 10px;
