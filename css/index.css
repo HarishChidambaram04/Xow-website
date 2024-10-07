@@ -507,6 +507,7 @@ h6 {
   width: 25%;
 }
 
+
 #hero a{
  color: white;
 }
@@ -514,6 +515,8 @@ h6 {
 #hero .btn-get-started:hover {
   background: #209dd8;
 }
+
+
 
 
 
@@ -527,6 +530,8 @@ h6 {
     height: 100vh;
     text-align: center;
   }
+
+
 
   #hero .animated {
     animation: none;
@@ -543,8 +548,8 @@ h6 {
     width: 120%;
     height: 100vh;
   }
-  
 }
+
 
 @media (max-width: 768px) {
   #hero h1 {
@@ -958,7 +963,8 @@ section {
   max-height: 300px;
   max-width: 300px;
   border-radius: 10%;
-  margin-left: 17%;
+  margin-right: 10%;
+  margin-left:10%;
   
 }
 
@@ -1025,12 +1031,20 @@ section {
   flex-direction: column;
 }
 /* Responsive adjustments */
-@media (max-width: 576px) {
+/* @media (max-width: 576px) {
   .add1 {
     text-align: center; /* Center text on small screens */
-  }
+  /* }
   h3 {
     font-size: 1.2rem; /* Adjust font size for mobile */
+  /* }
+} */ 
+
+
+@media (max-width: 600px) {
+  .footer {
+    padding: 15px 20px; 
+    min-height: 60px; 
   }
 }
 
@@ -1090,6 +1104,13 @@ section {
   margin: 15px 0 10px 0;
   font-size: 1rem;
   font-weight: 300;
+}
+
+@media (max-width: 600px) {
+  .footer p {
+    font-size: 0.875rem; 
+    margin: 10px 0 5px 0; 
+  }
 }
 
 .wave {
